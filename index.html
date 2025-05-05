@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>¿Cuántos pesos necesito?</title>
+
+</head>
+<body>
+
+  <h1>¿Cuántos pesos necesito?</h1>
+<b>
+  <form id="formulario" onsubmit="return false;">
+    <label for="destino">A dónde:</label>
+    <select id="destino">
+      <option value="Cuzco">Cuzco</option>
+      <option value="Rio">Rio</option>
+      <option value="Miami">Miami</option>
+      <option value="Barcelona">Barcelona</option>
+      <option value="Tokyo">Tokyo</option>
+      <option value="Paris">Paris</option>
+      <option value="Roma">Roma</option>
+      <option value="Berlin">Berlin</option>
+    </select><br><br>
+
+    <label for="dias">Cuántos días:</label>
+    <input type="number" id="dias" min="1"><br><br>
+
+    <button id="calcular">Total</button>
+  </form>
+
+  <div id="resultado">
+    <p>Necesitas 100 ( ) por día, para estar tranquilo.</p>
+    <p>Entonces junta X pesos argentinos.</p>
+  </div>
+</b>
+  <script src="script.js"></script>
+
+</body>
+</html>
